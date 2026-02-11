@@ -1,0 +1,16 @@
+# Description: Configuration file for the experiment
+FileSavePath_win: "." # File save path for output folder
+FileSavePath_linux: "." # File save path for output folder
+
+# ------ for fitting task ------
+
+plot_trace: True  # plot trace
+plot_ridgeline: True  # plot ridgeline (for histogram task only)
+save_quantiles: True  # Save quantiles *_quantiles.pt files (for histogram task only)
+
+# ------ for coupling task ------
+
+plot_distance: True  # plot coupling distance
+plot_distance_comp: True  # plot coupling distance comparison
+save_wasserstein: True  # Save wasserstein distance *_wasserstein.pt files
+plot_wasserstein: True  # plot wasserstein distance
